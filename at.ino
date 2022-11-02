@@ -35,6 +35,7 @@ void loop() {
     if (c == 10) {
       // Print sent command
       Serial.print("\r\nCommand: " + command);
+      command = "";
       // Create carriage return and prefix new line with '> '
       Serial.print("\r\n> ");
     }

@@ -38,6 +38,8 @@ My solution was to use pin `10` for RX. I assume that 11, 12 and 13 would work a
 
 Example code for testing serial mode and AT commands can be found within `at.ino` file.
 
+![AT example](at_example.gif)
+
 ### Disclosure
 
 I am beginner with **Arduino**.
